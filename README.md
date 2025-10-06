@@ -9,7 +9,7 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
 ## 📋 Contract Overview
-**Contract Name:** DBTCEUR Deflationary  
+**Contract Name:** DeflationaryBTC€ur  
 **Symbol:** DBTCED  
 **Network:** Polygon Mainnet  
 **Contract Address:** [`0x32466616c9fca520cccc2e7b057cf99e9a4136cd`]
@@ -175,6 +175,7 @@ Documentation: Project Wiki
 Issues: GitHub Issues
 
 Discussions: Community Forum
+
 
 
 
