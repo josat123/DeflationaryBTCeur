@@ -5,7 +5,6 @@
 ![MIT License](https://img.shields.io/badge/License-MIT-blue)
 ![Polygon Network](https://img.shields.io/badge/Network-Polygon-purple)
 ![Solidity 0.8.20](https://img.shields.io/badge/Solidity-0.8.20-lightgrey)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Contract Verified](https://img.shields.io/badge/Contract-Verified-brightgreen)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
@@ -14,11 +13,11 @@
 **Symbol:** DBTCED  
 **Network:** Polygon Mainnet  
 **Contract Address:** [`0x32466616c9fca520cccc2e7b057cf99e9a4136cd`]
-[(https://polygonscan.com/address/0x32466616c9fca520cccc2e7b057cf99e9a4136cd)]
+
 
 ## Quick Links
 - Website: https://deflationarybtceur.online
-- Contract (Polygon): https://polygonscan.com/address/C0x32466616c9fca520cccc2e7b057cf99e9a4136cd
+- Contract (Polygon): [https://polygonscan.com/address/C0x32466616c9fca520cccc2e7b057cf99e9a4136cd](https://polygonscan.com/address/0x32466616c9fca520cccc2e7b057cf99e9a4136cd#code)
 
 ## 🚀 Features
 
@@ -176,6 +175,7 @@ Documentation: Project Wiki
 Issues: GitHub Issues
 
 Discussions: Community Forum
+
 
 
 
