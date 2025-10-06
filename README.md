@@ -13,7 +13,7 @@
 **Contract Name:** DBTCEUR Deflationary  
 **Symbol:** DBTCED  
 **Network:** Polygon Mainnet  
-**Contract Address:** [`0x32466616c9fca520cccc2e7b057cf99e9a4136cd`](https://polygonscan.com/address/0x32466616c9fca520cccc2e7b057cf99e9a4136cd)
+**Contract Address:** [`0x32466616c9fca520cccc2e7b057cf99e9a4136cd`][(https://polygonscan.com/address/0x32466616c9fca520cccc2e7b057cf99e9a4136cd)]
 
 ## Quick Links
 - Website: https://deflationarybtceur.online
@@ -176,4 +176,3 @@ Issues: GitHub Issues
 
 Discussions: Community Forum
 
-Generated automatically by README generator - DBTCED Team
