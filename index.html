@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -789,19 +789,23 @@
     <header>
         <div class="header-container">
             <div class="logo">
+                <!-- Logo from GitHub repository -->
+                <img src="https://raw.githubusercontent.com/yourusername/DBTCEUR-repo/main/logo.svg" alt="DBTCEUR Logo">
                 <div class="logo-text">DBTCEUR</div>
             </div>
             <nav>
                 <ul class="nav-menu">
                     <li><a href="#home">Home</a></li>
-                    <li><a href="https://www.deflationarybtceur.online/whitepaper" target="_blank">Whitepaper</a></li>
-                    <li><a href="https://www.deflationarybtceur.online/tokenmetrics" target="_blank">Tokenmetrics</a></li>
+                    <!-- Whitepaper from GitHub repository -->
+                    <li><a href="https://raw.githubusercontent.com/yourusername/DBTCEUR-repo/main/whitepaper.pdf" target="_blank">Whitepaper</a></li>
+                    <!-- Tokenomics from GitHub repository -->
+                    <li><a href="https://raw.githubusercontent.com/yourusername/DBTCEUR-repo/main/tokenomics.md" target="_blank">Tokenomics</a></li>
                     <li><a href="https://polygonscan.com/address/0x32466616c9fca520cccc2e7b057cf99e9a4136cd" target="_blank">Contract</a></li>
-                    <li><a href="https://www.deflationarybtceur.online/project" target="_blank">Project</a></li>
+                    <li><a href="https://github.com/yourusername/DBTCEUR-project" target="_blank">Project</a></li>
                     <li><a href="https://app.uniswap.org/swap?outputCurrency=0x32466616c9fca520cccc2e7b057cf99e9a4136cd" target="_blank">Uniswap</a></li>
                     <li><a href="https://app.sushi.com/swap?outputCurrency=0x32466616c9fca520cccc2e7b057cf99e9a4136cd" target="_blank">Sushiswap</a></li>
-                    <li><a href="https://www.deflationarybtceur.online/blog" target="_blank">Blog</a></li>
-                    <li><a href="mailto:admindwjcrypto.com" target="_blank">Contact</a></li>
+                    <li><a href="https://github.com/yourusername/DBTCEUR-blog" target="_blank">Blog</a></li>
+                    <li><a href="mailto:admin@dwjcrypto.com" target="_blank">Contact</a></li>
                 </ul>
             </nav>
             <div class="header-buttons">
@@ -810,7 +814,7 @@
                 </button>
                 <button class="connect-wallet" id="connectWallet">
                     <i class="fas fa-wallet"></i>
-                    <span>Connetti Wallet</span>
+                    <span>Connect Wallet</span>
                 </button>
             </div>
         </div>
@@ -820,8 +824,8 @@
     <section class="hero" id="home">
         <div class="hero-bg"></div>
         <div class="hero-content fade-in">
-            <h1>Protocollo Deflazionario DBTC/EUR</h1>
-            <p>Ricompense per LP 60% | Long 30% | Burn 10%<br>Supply iniziale: 700M → Supply finale: 250M</p>
+            <h1>Deflationary DBTC/EUR Protocol</h1>
+            <p>LP Rewards 60% | Long 30% | Burn 10%<br>Initial Supply: 700M → Final Supply: 250M</p>
             
             <div class="hero-stats">
                 <div class="stat">
@@ -839,11 +843,12 @@
             </div>
             
             <div class="cta-buttons">
-                <a href="#acquisti" class="btn btn-primary">
+                <a href="#purchase" class="btn btn-primary">
                     <i class="fas fa-shopping-cart"></i>
-                    Acquista Ora
+                    Buy Now
                 </a>
-                <a href="https://www.deflationarybtceur.online/whitepaper" class="btn btn-secondary" target="_blank">
+                <!-- Whitepaper from GitHub repository -->
+                <a href="https://raw.githubusercontent.com/yourusername/DBTCEUR-repo/main/whitepaper.md" class="btn btn-secondary" target="_blank">
                     <i class="fas fa-file-contract"></i>
                     Whitepaper
                 </a>
@@ -851,72 +856,72 @@
         </div>
     </section>
 
-    <!-- Protocollo Section -->
+    <!-- Protocol Section -->
     <section class="section">
-        <h2 class="section-title">Come Funziona il <span>Protocollo</span></h2>
+        <h2 class="section-title">How the <span>Protocol</span> Works</h2>
         <div class="features-grid">
             <div class="feature-card fade-in">
                 <div class="feature-icon">
                     <i class="fas fa-fire"></i>
                 </div>
-                <h3>Meccanismo di Burn</h3>
-                <p>Il burn è guidato dagli utenti. Più long e staking, più alto è il burn (fino al 50%). Massimo raggiungibile per il burn è 50%.</p>
+                <h3>Burn Mechanism</h3>
+                <p>The burn is user-driven. More long and staking, higher the burn (up to 50%). Maximum achievable for the burn is 50%.</p>
             </div>
             <div class="feature-card fade-in">
                 <div class="feature-icon">
                     <i class="fas fa-chart-pie"></i>
                 </div>
-                <h3>Distribuzione Ricompense</h3>
-                <p>60% Liquidity Providers, 30% Long Holders, 10% Burn Automatico. Sistema di ricompense equo e trasparente.</p>
+                <h3>Rewards Distribution</h3>
+                <p>60% Liquidity Providers, 30% Long Holders, 10% Auto Burn. Fair and transparent reward system.</p>
             </div>
             <div class="feature-card fade-in">
                 <div class="feature-icon">
                     <i class="fas fa-chart-line"></i>
                 </div>
-                <h3>Supply Dinamica</h3>
-                <p>Da 700M token iniziali a 250M token finali con meccanismo deflazionario che aumenta il valore nel tempo.</p>
+                <h3>Dynamic Supply</h3>
+                <p>From 700M initial tokens to 250M final tokens with deflationary mechanism that increases value over time.</p>
             </div>
         </div>
     </section>
 
     <!-- Tokenomics Section -->
     <section class="section section-dark">
-        <h2 class="section-title">Tokenomics <span>Trasparenti</span></h2>
+        <h2 class="section-title">Transparent <span>Tokenomics</span></h2>
         <div class="tokenomics-container">
             <div class="tokenomic-item fade-in">
                 <span class="percentage">60%</span>
                 <h3>Liquidity Providers</h3>
-                <p>Ricompense per chi fornisce liquidità e supporta il protocollo</p>
+                <p>Rewards for those who provide liquidity and support the protocol</p>
             </div>
             <div class="tokenomic-item fade-in">
                 <span class="percentage">30%</span>
                 <h3>Long Holders</h3>
-                <p>Ricompense per chi crede nel progetto a lungo termine</p>
+                <p>Rewards for those who believe in the project long-term</p>
             </div>
             <div class="tokenomic-item fade-in">
                 <span class="percentage">10%</span>
                 <h3>Auto Burn</h3>
-                <p>Burn automatico che riduce la supply e aumenta la scarsità</p>
+                <p>Automatic burn that reduces supply and increases scarcity</p>
             </div>
         </div>
     </section>
 
-    <!-- Acquisti Section -->
-    <section class="section" id="acquisti">
-        <h2 class="section-title">Acquista <span>DBTCEUR</span></h2>
+    <!-- Purchase Section -->
+    <section class="section" id="purchase">
+        <h2 class="section-title">Buy <span>DBTCEUR</span></h2>
         <div class="purchase-container fade-in">
             <div class="wallet-info" id="walletInfo">
                 <i class="fas fa-wallet"></i>
-                <span>Connetti il tuo wallet per acquistare</span>
+                <span>Connect your wallet to purchase</span>
             </div>
             
             <div class="swap-interface">
                 <div class="input-group">
-                    <label>Da (MATIC)</label>
+                    <label>From (MATIC)</label>
                     <input type="number" id="fromAmount" placeholder="0.0" min="0">
                 </div>
                 <div class="input-group">
-                    <label>A (DBTCEUR)</label>
+                    <label>To (DBTCEUR)</label>
                     <input type="number" id="toAmount" placeholder="0.0" readonly>
                 </div>
                 <button class="swap-button" id="swapButton">
@@ -926,7 +931,7 @@
             </div>
 
             <div class="dex-links">
-                <a href="https://www.sushi.com/polygon/swap?token0=NATIVE&token1=0xb0bf4c35dcf8e47f9b61c5b07b0cadd2945544e7" 
+                <a href="https://www.sushi.com/polygon/swap?token0=NATIVE&token1=0x32466616c9fca520cccc2e7b057cf99e9a4136cd" 
                    class="dex-btn" target="_blank">
                     <i class="fas fa-bolt"></i>
                     SushiSwap
@@ -942,12 +947,12 @@
 
     <!-- Contract Section -->
     <section class="section section-dark">
-        <h2 class="section-title">Contratto <span>Verificato</span></h2>
+        <h2 class="section-title">Verified <span>Contract</span></h2>
         <div class="contract-address">
             <span id="contractAddress">0x32466616c9fca520cccc2e7b057cf99e9a4136cd</span>
             <button class="copy-btn" onclick="copyContract()">
                 <i class="far fa-copy"></i>
-                Copia
+                Copy
             </button>
         </div>
         <div class="contract-links">
@@ -966,7 +971,7 @@
 
     <!-- Sponsor Section -->
     <section class="section">
-        <h2 class="section-title">In Collaborazione con</h2>
+        <h2 class="section-title">In Collaboration with</h2>
         <div style="text-align: center;" class="fade-in">
             <div class="sponsor">
                 <a href="https://www.deflationarybtc.online/" target="_blank">
@@ -993,7 +998,7 @@
                 <a href="https://facebook.com/dwjtoken" target="_blank" title="Facebook">
                     <i class="fab fa-facebook"></i>
                 </a>
-                <a href="https://github.com/josat123/DBTC" target="_blank" title="GitHub">
+                <a href="https://github.com/yourusername/DBTCEUR" target="_blank" title="GitHub">
                     <i class="fab fa-github"></i>
                 </a>
             </div>
@@ -1011,7 +1016,7 @@
     <!-- Web3 Modal -->
     <div class="web3-modal" id="web3Modal">
         <div class="web3-modal-content">
-            <h3>Connetti Wallet</h3>
+            <h3>Connect Wallet</h3>
             <button id="metaMaskBtn" class="wallet-option">
                 <i class="fab fa-ethereum"></i>
                 MetaMask
@@ -1021,7 +1026,7 @@
                 WalletConnect
             </button>
             <button onclick="closeModal()" class="close-modal">
-                Chiudi
+                Close
             </button>
         </div>
     </div>
@@ -1029,16 +1034,16 @@
     <!-- Notification -->
     <div class="notification" id="notification">
         <i class="fas fa-check-circle"></i>
-        <span id="notificationText">Operazione completata</span>
+        <span id="notificationText">Operation completed</span>
     </div>
 
     <script>
-        // Web3 Integration - Versione MIGLIORATA e FUNZIONANTE
+        // Web3 Integration - IMPROVED and WORKING version
         let web3;
         let connectedAccount = null;
         let isConnected = false;
 
-        // Elementi DOM
+        // DOM Elements
         const connectWalletBtn = document.getElementById('connectWallet');
         const metaMaskBtn = document.getElementById('metaMaskBtn');
         const walletConnectBtn = document.getElementById('walletConnectBtn');
@@ -1050,19 +1055,19 @@
         const notification = document.getElementById('notification');
         const notificationText = document.getElementById('notificationText');
 
-        // Inizializzazione Web3
+        // Web3 Initialization
         async function initWeb3() {
             if (window.ethereum) {
                 web3 = new Web3(window.ethereum);
-                console.log("Web3 inizializzato con successo");
+                console.log("Web3 initialized successfully");
                 
-                // Controlla se già connesso
+                // Check if already connected
                 const accounts = await web3.eth.getAccounts();
                 if (accounts.length > 0) {
                     await handleConnected(accounts[0]);
                 }
                 
-                // Ascolta i cambiamenti di account
+                // Listen for account changes
                 window.ethereum.on('accountsChanged', (accounts) => {
                     if (accounts.length === 0) {
                         handleDisconnected();
@@ -1071,21 +1076,21 @@
                     }
                 });
                 
-                // Ascolta i cambiamenti di rete
+                // Listen for network changes
                 window.ethereum.on('chainChanged', (chainId) => {
                     checkNetwork(parseInt(chainId));
                     window.location.reload();
                 });
             } else {
-                console.error("MetaMask non installato");
-                showNotification("Installa MetaMask per connetterti", "error");
+                console.error("MetaMask not installed");
+                showNotification("Install MetaMask to connect", "error");
             }
         }
 
-        // Gestione connessione
+        // Connection handling
         async function connectMetaMask() {
             if (!window.ethereum) {
-                showNotification("MetaMask non installato!", "error");
+                showNotification("MetaMask not installed!", "error");
                 return;
             }
 
@@ -1097,68 +1102,68 @@
                 if (accounts.length > 0) {
                     await handleConnected(accounts[0]);
                     closeModal();
-                    showNotification("Wallet connesso con successo!", "success");
+                    showNotification("Wallet connected successfully!", "success");
                 }
             } catch (error) {
-                console.error("Errore durante la connessione:", error);
+                console.error("Connection error:", error);
                 if (error.code === 4001) {
-                    showNotification("Connessione annullata dall'utente", "error");
+                    showNotification("Connection cancelled by user", "error");
                 } else {
-                    showNotification("Errore durante la connessione al wallet", "error");
+                    showNotification("Error connecting to wallet", "error");
                 }
             }
         }
 
-        // Gestione connessione riuscita
+        // Successful connection handling
         async function handleConnected(account) {
             connectedAccount = account;
             isConnected = true;
             
-            // Aggiorna UI
+            // Update UI
             connectWalletBtn.innerHTML = `<i class="fas fa-wallet"></i><span>${formatAddress(account)}</span>`;
-            walletInfo.innerHTML = `<i class="fas fa-check-circle"></i><span>Connesso: ${formatAddress(account)}</span>`;
+            walletInfo.innerHTML = `<i class="fas fa-check-circle"></i><span>Connected: ${formatAddress(account)}</span>`;
             walletInfo.classList.add('wallet-connected');
             
-            // Controlla la rete
+            // Check network
             const chainId = await web3.eth.getChainId();
             checkNetwork(chainId);
             
-            // Abilita lo swap
+            // Enable swap
             swapButton.disabled = false;
         }
 
-        // Gestione disconnessione
+        // Disconnection handling
         function handleDisconnected() {
             connectedAccount = null;
             isConnected = false;
             
-            // Ripristina UI
-            connectWalletBtn.innerHTML = `<i class="fas fa-wallet"></i><span>Connetti Wallet</span>`;
-            walletInfo.innerHTML = `<i class="fas fa-wallet"></i><span>Connetti il tuo wallet per acquistare</span>`;
+            // Restore UI
+            connectWalletBtn.innerHTML = `<i class="fas fa-wallet"></i><span>Connect Wallet</span>`;
+            walletInfo.innerHTML = `<i class="fas fa-wallet"></i><span>Connect your wallet to purchase</span>`;
             walletInfo.classList.remove('wallet-connected');
             
-            // Disabilita lo swap
+            // Disable swap
             swapButton.disabled = true;
         }
 
-        // Controlla la rete
+        // Network check
         function checkNetwork(chainId) {
             const polygonChainId = 137; // Polygon Mainnet
             
             if (chainId !== polygonChainId) {
-                showNotification("Sei sulla rete sbagliata. Passa a Polygon Mainnet", "error");
+                showNotification("You're on the wrong network. Switch to Polygon Mainnet", "error");
                 
-                // Aggiungi indicatore di rete
+                // Add network indicator
                 if (!document.querySelector('.network-indicator')) {
                     const networkIndicator = document.createElement('span');
                     networkIndicator.className = 'network-indicator';
-                    networkIndicator.innerHTML = `<i class="fas fa-exclamation-triangle"></i> Rete errata`;
+                    networkIndicator.innerHTML = `<i class="fas fa-exclamation-triangle"></i> Wrong network`;
                     connectWalletBtn.appendChild(networkIndicator);
                 }
                 
                 swapButton.disabled = true;
             } else {
-                // Rimuovi indicatore se presente
+                // Remove indicator if present
                 const indicator = document.querySelector('.network-indicator');
                 if (indicator) {
                     indicator.remove();
@@ -1168,12 +1173,12 @@
             }
         }
 
-        // Formatta l'indirizzo
+        // Format address
         function formatAddress(address) {
             return `${address.substring(0, 6)}...${address.substring(address.length - 4)}`;
         }
 
-        // Mostra notifica
+        // Show notification
         function showNotification(message, type = "success") {
             notificationText.textContent = message;
             notification.className = `notification ${type} show`;
@@ -1183,24 +1188,24 @@
             }, 5000);
         }
 
-        // Copia indirizzo contratto
+        // Copy contract address
         function copyContract() {
             const contractAddress = document.getElementById('contractAddress').textContent;
             navigator.clipboard.writeText(contractAddress).then(() => {
-                showNotification("Indirizzo copiato negli appunti!");
+                showNotification("Address copied to clipboard!");
             });
         }
 
-        // Swap simulato (da implementare con contratti reali)
+        // Simulated swap (to be implemented with real contracts)
         swapButton.addEventListener('click', async function() {
             if (!isConnected) {
-                showNotification("Connetti prima il tuo wallet!", "error");
+                showNotification("Connect your wallet first!", "error");
                 return;
             }
 
             const amount = parseFloat(fromAmount.value);
             if (!amount || amount <= 0) {
-                showNotification("Inserisci un importo valido", "error");
+                showNotification("Enter a valid amount", "error");
                 return;
             }
 
@@ -1208,24 +1213,24 @@
                 swapButton.disabled = true;
                 swapButton.innerHTML = `<i class="fas fa-spinner fa-spin"></i> Processing...`;
                 
-                // Simula uno swap (sostituire con logica reale)
+                // Simulate a swap (replace with real logic)
                 await new Promise(resolve => setTimeout(resolve, 2000));
                 
-                // Calcola importo ricevuto (simulazione)
-                const received = amount * 1500; // Tasso fittizio
+                // Calculate received amount (simulation)
+                const received = amount * 1500; // Fictional rate
                 toAmount.value = received.toFixed(2);
                 
-                showNotification(`Swap completato! Ricevuti ${received.toFixed(2)} DBTCEUR`);
+                showNotification(`Swap completed! Received ${received.toFixed(2)} DBTCEUR`);
             } catch (error) {
-                console.error("Errore durante lo swap:", error);
-                showNotification("Errore durante lo swap", "error");
+                console.error("Swap error:", error);
+                showNotification("Error during swap", "error");
             } finally {
                 swapButton.disabled = false;
                 swapButton.innerHTML = `<i class="fas fa-exchange-alt"></i> SWAP`;
             }
         });
 
-        // Calcola importo ricevuto in tempo reale
+        // Calculate received amount in real time
         fromAmount.addEventListener('input', function() {
             const amount = parseFloat(this.value);
             if (amount && amount > 0) {
@@ -1235,7 +1240,7 @@
             }
         });
 
-        // Gestione modale
+        // Modal handling
         function closeModal() {
             web3Modal.style.display = 'none';
         }
@@ -1243,10 +1248,10 @@
         // Event Listeners
         connectWalletBtn.addEventListener('click', () => {
             if (isConnected) {
-                // Se già connesso, mostra opzioni disconnessione
-                if (confirm("Vuoi disconnettere il wallet?")) {
+                // If already connected, show disconnect options
+                if (confirm("Do you want to disconnect the wallet?")) {
                     handleDisconnected();
-                    showNotification("Wallet disconnesso", "success");
+                    showNotification("Wallet disconnected", "success");
                 }
             } else {
                 web3Modal.style.display = 'flex';
@@ -1255,30 +1260,30 @@
 
         metaMaskBtn.addEventListener('click', connectMetaMask);
         walletConnectBtn.addEventListener('click', () => {
-            showNotification("WalletConnect in sviluppo - Usa MetaMask", "error");
+            showNotification("WalletConnect in development - Use MetaMask", "error");
         });
 
-        // Chiudi modale cliccando fuori
+        // Close modal when clicking outside
         window.addEventListener('click', (event) => {
             if (event.target === web3Modal) {
                 closeModal();
             }
         });
 
-        // Toggle tema
+        // Theme toggle
         document.getElementById('themeToggle').addEventListener('click', function() {
             document.body.classList.toggle('light-theme');
             const icon = this.querySelector('i');
             if (document.body.classList.contains('light-theme')) {
                 icon.className = 'fas fa-sun';
-                showNotification("Tema chiaro attivato");
+                showNotification("Light theme activated");
             } else {
                 icon.className = 'fas fa-moon';
-                showNotification("Tema scuro attivato");
+                showNotification("Dark theme activated");
             }
         });
 
-        // Animazioni al scroll
+        // Scroll animations
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
@@ -1292,12 +1297,12 @@
             });
         }, observerOptions);
 
-        // Osserva gli elementi da animare
+        // Observe elements to animate
         document.querySelectorAll('.feature-card, .tokenomic-item, .purchase-container').forEach(el => {
             observer.observe(el);
         });
 
-        // Inizializza l'app quando il DOM è pronto
+        // Initialize app when DOM is ready
         document.addEventListener('DOMContentLoaded', initWeb3);
     </script>
 </body>
