@@ -1,0 +1,11 @@
+out/
+cache/
+artifacts/
+lib/
+*.dbg.json
+node_modules/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
