@@ -1,23 +1,33 @@
-# DBTCEUR - Deflationary BTCEUR Protocol
+<p align="center">
+  <img src="dbtceur_logo.png" alt="DBTCEUR Logo" width="150"/>
+</p>
 
-![Foundry Tests](https://img.shields.io/badge/Foundry-Tests%20Passed-brightgreen)
-![Security Audit](https://img.shields.io/badge/Security-Audit%20Passed-success)
-![MIT License](https://img.shields.io/badge/License-MIT-blue)
-![Polygon Network](https://img.shields.io/badge/Network-Polygon-purple)
-![Solidity 0.8.20](https://img.shields.io/badge/Solidity-0.8.20-lightgrey)
-![Contract Verified](https://img.shields.io/badge/Contract-Verified-brightgreen)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+<h1 align="center">DBTCEUR - Deflationary BTCEUR Protocol</h1>
+<p align="center">
+  Next-Generation Deflationary Token & Ecosystem on Polygon
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Foundry-Tests%20Passed-brightgreen" alt="Foundry Tests"/>
+  <img src="https://img.shields.io/badge/Security-Audit%20Passed-success" alt="Security Audit"/>
+  <img src="https://img.shields.io/badge/MIT%20License-blue" alt="MIT License"/>
+  <img src="https://img.shields.io/badge/Polygon%20Network-purple" alt="Polygon Network"/>
+  <img src="https://img.shields.io/badge/Solidity-0.8.20-lightgrey" alt="Solidity 0.8.20"/>
+  <img src="https://img.shields.io/badge/Contract-Verified-brightgreen" alt="Contract Verified"/>
+  <img src="https://img.shields.io/badge/Version-1.0.0-blue" alt="Version"/>
+</p>
+
+---
 
 ## 📋 Contract Overview
 **Contract Name:** DeflationaryBTC€ur  
 **Symbol:** DBTCED  
 **Network:** Polygon Mainnet  
-**Contract Address:** [`0x32466616c9fca520cccc2e7b057cf99e9a4136cd`]
-
+**Contract Address:** [`0x32466616c9fca520cccc2e7b057cf99e9a4136cd`](https://polygonscan.com/address/0x32466616c9fca520cccc2e7b057cf99e9a4136cd)
 
 ## Quick Links
 - Website: https://deflationarybtceur.online
-- Contract (Polygon): [https://polygonscan.com/address/C0x32466616c9fca520cccc2e7b057cf99e9a4136cd](https://polygonscan.com/address/0x32466616c9fca520cccc2e7b057cf99e9a4136cd#code)
+- Contract (Polygon): [Polygonscan](https://polygonscan.com/address/0x32466616c9fca520cccc2e7b057cf99e9a4136cd#code)
 
 ## 🚀 Features
 
@@ -43,100 +53,91 @@
 
 ## 📊 Tokenomics
 Supply Structure:
-├── Initial Supply: 700,000,000 DBTCED
-├── Target Supply: 500,000,000 DBTCED
-├── Minimum Supply: 250,000,000 DBTCED
-└── Current Supply: {700_000_000 - 0} DBTCED
+- Initial Supply: 700,000,000 DBTCED
+- Target Supply: 500,000,000 DBTCED
+- Minimum Supply: 250,000,000 DBTCED
+- Current Supply: {700_000_000 - 0} DBTCED
 
 Fee Mechanism:
-├── Transfer Tax: 0.2%
-├── Owner Share: 0.02%
-└── Treasury Share: 0.18%
-
-text
+- Transfer Tax: 0.2%
+- Owner Share: 0.02%
+- Treasury Share: 0.18%
 
 ## 🏗️ Project Structure
 DBTCED-Token/
-├── script/ # Deployment scripts
-├── src/ # Contract source code
-│ └── DBTCEURDeflationary.sol
-├── test/ # Foundry test files
-│ └── DBTCEURTest.t.sol
-├── .github/ # CI/CD workflows
-├── README.md # This file
-└── foundry.toml # Foundry configuration
-
-text
+- script/ # Deployment scripts
+- src/ # Contract source code
+  - DBTCEURDeflationary.sol
+- test/ # Foundry test files
+  - DBTCEURTest.t.sol
+- .github/ # CI/CD workflows
+- README.md # This file
+- foundry.toml # Foundry configuration
 
 ## 🧪 Testing with Foundry
 
 ### Prerequisites
 ```bash
-# Install Foundry
 curl -L https://foundry.paradigm.xyz | bash
 foundryup
+
 Run Tests
-bash
-# Run all tests
-forge test
+```bash
 
-# Run tests with verbose output
-forge test -vv
-
-# Run specific test suite
-forge test --match-test testBurnMechanism
-
-# Run with gas reports
-forge test --gas-report
-Test Coverage
-bash
-# Generate coverage report
 forge coverage
+
 📜 Contract Functions
+
 Core Functions
-transfer() - With built-in fee mechanism
 
-manualBurn(amount) - Owner-controlled burns
+    transfer() - With built-in fee mechanism
 
-daoBurn(amount) - DAO-controlled burns
+    manualBurn(amount) - Owner-controlled burns
 
-addLiquidity() - Liquidity pool management
+    daoBurn(amount) - DAO-controlled burns
+
+    addLiquidity() - Liquidity pool management
 
 Configuration Functions
-setOwnerWallet(address)
 
-setTreasury(address)
+    setOwnerWallet(address)
 
-setDAO(address)
+    setTreasury(address)
 
-setRouter(address)
+    setDAO(address)
+
+    setRouter(address)
 
 Security Functions
-pause() / unpause() - Emergency controls
 
-Ownership transfer with two-step verification
+    pause() / unpause() - Emergency controls
+
+    Ownership transfer with two-step verification
 
 🔧 Deployment
-Compile Contract
-bash
-forge build
-Deploy to Network
-bash
-forge create --rpc-url <RPC_URL> \\
-  --private-key <PRIVATE_KEY> \\
-  src/DBTCEURDeflationary.sol:DBTCEURDeflationary \\
-  --constructor-args 2592000  # 30-day burn interval
-Verify Contract
-bash
-forge verify-contract \\
-  --chain polygon \\
-  0x32466616c9fca520cccc2e7b057cf99e9a4136cd \\
-  src/DBTCEURDeflationary.sol:DBTCEURDeflationary \\
-  --constructor-args 2592000
-📈 Burn Schedule
-The contract implements automated burning with:
 
-Configurable burn intervals
+Compile Contract
+```bash
+forge build
+
+Deploy to Network
+```bash
+forge create --rpc-url <RPC_URL> \
+  --private-key <PRIVATE_KEY> \
+  src/DBTCEURDeflationary.sol:DBTCEURDeflationary \
+  --constructor-args 2592000  # 30-day burn interval
+
+Verify Contract
+```bash
+forge verify-contract \
+  --chain polygon \
+  0x32466616c9fca520cccc2e7b057cf99e9a4136cd \
+  src/DBTCEURDeflationary.sol:DBTCEURDeflationary \
+  --constructor-args 2592000
+
+📈 Burn Schedule
+
+Automated burning with configurable intervals
 
 Supply target mechanism
 
@@ -145,6 +146,7 @@ DAO governance for burns
 Emergency manual burn capability
 
 🎯 Roadmap
+
 Contract Development & Testing
 
 Foundry Test Suite Implementation
@@ -160,6 +162,7 @@ DAO Governance Launch
 Ecosystem Expansion
 
 👥 Team & Governance
+
 Contract Owner: Initial administration rights
 
 DAO: Community governance implementation
@@ -167,16 +170,15 @@ DAO: Community governance implementation
 Treasury: Ecosystem fund management
 
 📄 License
-This project is licensed under the MIT License - see contract header for details.
+
+MIT License – see contract header for details.
 
 🛣️ Support
+
 Documentation: Project Wiki
 
 Issues: GitHub Issues
 
 Discussions: Community Forum
-
-
-
-
+yaml
 
