@@ -2,7 +2,7 @@
   <img src="dbtceur_logo.png" alt="DBTCEUR Logo" width="150"/>
 </p>
 
-<h1 align="center">DBTCEUR - Deflationary BTCEUR Protocol</h1>
+<h1 align="center">DBTCEUR - DeflationaryDBTCEUR Protocol</h1>
 <p align="center">
   Next-Generation Deflationary Token & Ecosystem on Polygon
 </p>
@@ -20,7 +20,7 @@
 ---
 
 ## 📋 Contract Overview
-**Contract Name:** DeflationaryBTC€ur  
+**Contract Name:** DeflationaryDBTC€ur  
 **Symbol:** DBTCED  
 **Network:** Polygon Mainnet  
 **Contract Address:** [`0x32466616c9fca520cccc2e7b057cf99e9a4136cd`](https://polygonscan.com/address/0x32466616c9fca520cccc2e7b057cf99e9a4136cd)
@@ -181,4 +181,5 @@ Issues: GitHub Issues
 
 Discussions: Community Forum
 yaml
+
 
